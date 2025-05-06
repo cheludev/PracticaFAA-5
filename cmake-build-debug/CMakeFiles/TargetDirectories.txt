@@ -1,0 +1,3 @@
+C:/Users/chxlxs0/CLionProjects/PracticaFAA/cmake-build-debug/CMakeFiles/PracticaFAA.dir
+C:/Users/chxlxs0/CLionProjects/PracticaFAA/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/chxlxs0/CLionProjects/PracticaFAA/cmake-build-debug/CMakeFiles/rebuild_cache.dir
