@@ -55,6 +55,12 @@ build CMakeFiles/PracticaFAA.dir/main.cpp.obj: CXX_COMPILER__PracticaFAA_unscann
   OBJECT_DIR = CMakeFiles\PracticaFAA.dir
   OBJECT_FILE_DIR = CMakeFiles\PracticaFAA.dir
 
+build CMakeFiles/PracticaFAA.dir/mainSeries.cpp.obj: CXX_COMPILER__PracticaFAA_unscanned_Debug C$:/Users/chxlxs0/CLionProjects/PracticaFAA/mainSeries.cpp || cmake_object_order_depends_target_PracticaFAA
+  DEP_FILE = CMakeFiles\PracticaFAA.dir\mainSeries.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\PracticaFAA.dir
+  OBJECT_FILE_DIR = CMakeFiles\PracticaFAA.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target PracticaFAA
@@ -63,7 +69,7 @@ build CMakeFiles/PracticaFAA.dir/main.cpp.obj: CXX_COMPILER__PracticaFAA_unscann
 #############################################
 # Link the executable PracticaFAA.exe
 
-build PracticaFAA.exe: CXX_EXECUTABLE_LINKER__PracticaFAA_Debug CMakeFiles/PracticaFAA.dir/main.cpp.obj
+build PracticaFAA.exe: CXX_EXECUTABLE_LINKER__PracticaFAA_Debug CMakeFiles/PracticaFAA.dir/main.cpp.obj CMakeFiles/PracticaFAA.dir/mainSeries.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\PracticaFAA.dir
